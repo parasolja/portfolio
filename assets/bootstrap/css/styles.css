@@ -416,3 +416,8 @@ footer {
     padding: 7rem
   }
 }
+
+.portfolioCard {
+  border-color: #4B8EE7;
+  border-width: 20px;
+}
