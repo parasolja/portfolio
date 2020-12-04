@@ -2606,6 +2606,7 @@ a.btn.disabled, fieldset:disabled a.btn {
   margin-bottom: 20px;
 }
 
+
 .btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
   color: #fff;
   background-color: #FF6B6C;
@@ -2630,6 +2631,16 @@ a.btn.disabled, fieldset:disabled a.btn {
 
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 .2rem rgba(242, 119, 93, .5)
+}
+
+.portfolioBtn {
+  background-color: #5b5f97;
+  color: #fff;
+}
+
+.portfolioBtn:hover {
+  background-color: #b8b8d1;
+  color: #fff;
 }
 
 .btn-secondary {
