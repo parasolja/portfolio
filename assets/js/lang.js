@@ -7,7 +7,7 @@ let arrLang = {
     'startProject': 'Start a Project',
     'aboutUs': 'About',
     'contact': 'Contact',
-    'mainText': 'Solomiya Repko Software developer',
+    'mainText': 'Hi, I\'m Solya',
     'subText':'Located in Bremen, Germany',
     'ourServices': 'OUR SERVICES',
     'planning': 'Planning',
