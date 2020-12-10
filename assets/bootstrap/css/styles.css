@@ -195,7 +195,7 @@
 
 
 footer {
-  background-color: #5B5F97;
+  background-color: #7c77b9;
   margin: 0;
   color: #fff;
   padding: 10px;
@@ -226,7 +226,7 @@ footer {
 }
 
 #contact {
-  background-color: #5B5F97;
+  background-color: #7c77b9;
   color: white;
 }
 
@@ -281,7 +281,7 @@ footer {
   color: #FFF;
 }
 #cookieConsent a.cookieConsentOK {
-  background-color: #5B5F97;
+  background-color: #7c77b9;
   color: #fff;
   display: inline-block;
   border-radius: 5px;
@@ -296,7 +296,7 @@ footer {
 
 #mainNavDataProtection {
   border-bottom: 1px solid rgba(33, 37, 41, .5);
-  background-color: #5b5f97;
+  background-color: #7c77b9;
   transition: all .2s;
   text-align: left;
 
@@ -313,7 +313,7 @@ footer {
 #mainNavDataProtection .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #5b5f97
+  color: #7c77b9
 }
 
 #mainNavDataProtection .navbar-brand:focus, #mainNavDataProtection .navbar-brand:hover {
@@ -329,7 +329,7 @@ footer {
 
 
 #mainNavDataProtection .navbar-nav>li.nav-item>a.nav-link:focus:hover, #mainNavDataProtection .navbar-nav>li.nav-item>a.nav-link:hover {
-  color: #5b5f97;
+  color: #7c77b9;
 
 }
 
@@ -348,8 +348,8 @@ footer {
 
 @media (min-width:992px) {
   #mainNavDataProtection {
-    border-color: #5b5f97;
-    background-color: #5b5f97;
+    border-color: #7c77b9;
+    background-color: #7c77b9;
   }
 
   #mainNavDataProtection .navbar-brand {
@@ -376,7 +376,7 @@ footer {
 
   #mainNavDataProtection.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, .1);
-    background-color: #5b5f97
+    background-color: #7c77b9
   }
 
   #mainNavDataProtection.navbar-shrink .navbar-brand, #mainNavDataProtection.navbar-shrink .navbar-brand:focus, #mainNavDataProtection.navbar-shrink .navbar-brand:hover {
