@@ -10,10 +10,10 @@ let arrLang = {
     'mainText': 'Hi, I\'m Solya',
     'subText':'Located in Bremen, Germany',
     'ourServices': 'OUR SERVICES',
-    'planning': 'Planning',
-    'design': 'Design',
-    'development': 'Development',
-    'consulting': 'Consulting',
+    'planning': 'HTML',
+    'design': 'CSS/SASS',
+    'development': 'JavaScript',
+    'consulting': 'React.js',
     'optimization': 'Optimization',
     'support': 'Support'
 
