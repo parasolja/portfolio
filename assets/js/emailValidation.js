@@ -9,18 +9,15 @@
         if (form.checkValidity() === false) {
           event.preventDefault();
           event.stopPropagation();
-        }
+        } else if (form.checkValidity() == true) {
+          $('.alert').fadeIn(300);
+     }
         form.classList.add('was-validated');
         form.reset();
         form.classList.remove('was-validated');
       }, false);
     });
+    
   }, false);
-})();
-
-
-$(document).ready(function(){
-    $('button').click(function(){
-        $('.alert').show()
-    })
-});
+})
+();
