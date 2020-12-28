@@ -439,6 +439,16 @@ footer {
  height: 560px;
 }
 
+.rightcol::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.rightcol{
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
 .photo-portfolio {
   background-position: center;
   background-size: cover;
@@ -465,4 +475,14 @@ footer {
 .portfolioLink:hover {
   color: #7c77b9;
   text-decoration: none;
+}
+
+.portfolioItemMain {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 560px;
+
 }

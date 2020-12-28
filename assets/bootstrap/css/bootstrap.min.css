@@ -2636,6 +2636,7 @@ a.btn.disabled, fieldset:disabled a.btn {
 .portfolioBtn {
   background-color: #7c77b9;
   color: #fff;
+  margin-top:30px;
 }
 
 .portfolioBtn:hover {
