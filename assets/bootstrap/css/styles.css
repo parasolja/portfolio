@@ -435,6 +435,7 @@ footer {
  position: relative;
  top: 0%;
  overflow-y: scroll;
+ scroll-behavior: smooth;
  height: 560px;
 }
 
@@ -449,4 +450,19 @@ footer {
     border-top-right-radius: 0;
     min-height: none;
   }
+}
+
+.portfolioMenu {
+  display: inline;
+}
+
+.portfolioLink {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.portfolioLink:hover {
+  color: #7c77b9;
+  text-decoration: none;
 }
