@@ -424,3 +424,7 @@ footer {
     padding: 7rem
   }
 }
+
+.center-block {
+  max-width: 200px;
+}
