@@ -22,6 +22,18 @@
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+/* The Transformation */
+.photo-background:hover img {
+  filter: brightness(100%);
+  transform: scale(3);
 }
 
 @media screen and (min-width: 700px) {

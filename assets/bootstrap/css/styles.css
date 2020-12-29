@@ -44,6 +44,14 @@
   color: white;
 }
 
+.sectionSubHeadWhite {
+  font-family: 'Inter-ExtraBold', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+}
+
 .activeLanguage, .languageToggler:hover {
   background-color: #b8b8d1;
   color: white;
@@ -415,74 +423,4 @@ footer {
   .showcase .showcase-text {
     padding: 7rem
   }
-}
-
-
-.leftcol {
- position: sticky;
- top: 0%;
- left: 0%; 
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- overflow:hidden;
-
-
-}
-
-.rightcol {
- position: relative;
- top: 0%;
- overflow-y: scroll;
- scroll-behavior: smooth;
- height: 560px;
-}
-
-.rightcol::-webkit-scrollbar {
-  display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-.rightcol{
--ms-overflow-style: none;  /* IE and Edge */
-scrollbar-width: none;  /* Firefox */
-}
-
-.photo-portfolio {
-  background-position: center;
-  background-size: cover;
-  min-height: 560px;
-}
-
-@media screen and (min-width: 700px) {
-  .photo-portfolio {
-    border-top-right-radius: 0;
-    min-height: none;
-  }
-}
-
-.portfolioMenu {
-  display: inline;
-}
-
-.portfolioLink {
-  color: black;
-  padding: 10px;
-  text-decoration: none;
-}
-
-.portfolioLink:hover {
-  color: #7c77b9;
-  text-decoration: none;
-}
-
-.portfolioItemMain {
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 560px;
-
 }
