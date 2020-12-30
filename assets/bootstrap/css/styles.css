@@ -10,7 +10,7 @@
   font-family: 'Inter-ExtraBold', sans-serif;
   font-weight: 800;
   line-height: 65px;
-  color: rgb(0, 0, 0);
+  color: #fff;
   text-align: left;
   margin-bottom: 40px;
 
@@ -18,7 +18,7 @@
 
 
 .subText {
-  color: rgb(0, 0, 0);
+  color: #fff;
   margin-bottom: 60px;
   font-weight: 600;
   font-size: 24px;

@@ -10401,8 +10401,8 @@ img::-moz-selection {
 
 @media (min-width:992px) {
   #mainNav {
-    border-color: #9C91DB;
-    background-color: #9C91DB;
+    border-color: transparent;
+    background-color: transparent;
   }
 
   #mainNav .navbar-brand {
