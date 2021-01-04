@@ -10,7 +10,7 @@
   font-family: 'Inter-ExtraBold', sans-serif;
   font-weight: 800;
   line-height: 65px;
-  color: #fff;
+  color: #232D62;
   text-align: left;
   margin-bottom: 40px;
 
@@ -18,7 +18,7 @@
 
 
 .subText {
-  color: #fff;
+  color: #232D62;
   margin-bottom: 60px;
   font-weight: 600;
   font-size: 24px;
@@ -58,6 +58,19 @@
 
 }
 
+.mainView {
+  position: absolute;
+  right: calc(50% - 686px);
+  font-size: 0;
+}
+
+.mainPreview {
+  width: 768px;
+}
+
+.mainPic {
+  width: 70%
+}
 
 @media (min-width: 0px) and (max-width: 575px) {
 
