@@ -10,7 +10,7 @@
   font-family: 'Inter-ExtraBold', sans-serif;
   font-weight: 800;
   line-height: 65px;
-  color: #232D62;
+  color: #ffffff;
   text-align: left;
   margin-bottom: 40px;
 
@@ -18,9 +18,9 @@
 
 
 .subText {
-  color: #232D62;
+  color: #ffffff;
   margin-bottom: 60px;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 24px;
   line-height: 29px;
   text-align: left;
@@ -30,7 +30,7 @@
 .sectionHeading {
   font-family: 'Inter-ExtraBold', sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 36px;
   color: #b8b8d1;
 

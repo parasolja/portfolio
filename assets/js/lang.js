@@ -8,7 +8,7 @@ let arrLang = {
     'aboutUs': 'About',
     'contact': 'Contact',
     'mainText': 'Hi, I\'m Solya',
-    'subText':'Located in Bremen, Germany',
+    'subText':'Web Developer and UI Designer',
     'ourServices': 'OUR SERVICES',
     'planning': 'HTML',
     'design': 'CSS/SASS',
