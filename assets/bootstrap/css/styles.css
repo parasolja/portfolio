@@ -10,7 +10,7 @@
   font-family: 'Inter-ExtraBold', sans-serif;
   font-weight: 800;
   line-height: 65px;
-  color: #ffffff;
+  color: #232D62;
   text-align: left;
   margin-bottom: 40px;
 
@@ -18,7 +18,7 @@
 
 
 .subText {
-  color: #ffffff;
+  color: #232D62;
   margin-bottom: 60px;
   font-weight: 800;
   font-size: 24px;
@@ -442,3 +442,5 @@ footer {
 .center-block {
   max-width: 200px;
 }
+
+
