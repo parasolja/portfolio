@@ -443,4 +443,22 @@ footer {
   max-width: 200px;
 }
 
+.parallax-wrapper {
+  position: relative;
+  height: 1000px;
+  width: 100%;
+}
 
+
+.parallax-wrapper div {
+  background-size: cover !important;
+  position: absolute;
+  top: -200px;
+  height: 900px;
+  width: 100%;
+}
+
+.layer1 {
+  will-change: transform;
+  transform: translate3d(0px, 19px, 0px);
+}
