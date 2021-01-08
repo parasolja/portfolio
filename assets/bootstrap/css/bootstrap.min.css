@@ -551,7 +551,7 @@ pre code {
 }
 
 .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-  width: 100%;
+  width: 95%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -10310,7 +10310,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-dark {
-  background-color: #7c77b9 !important
+  background-color: #80389d !important
 }
 
 .text-faded {
@@ -10401,8 +10401,8 @@ img::-moz-selection {
 
 @media (min-width:992px) {
   #mainNav {
-    border-color: transparent;
-    background-color: transparent;
+    border-color: #80389d;
+    background-color: #80389d;
   }
 
   #mainNav .navbar-brand {
@@ -10447,8 +10447,6 @@ img::-moz-selection {
 
 header.masthead {
   padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
-  background-position: 50%;
   background-size: cover
 }
 

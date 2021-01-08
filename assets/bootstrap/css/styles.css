@@ -2,9 +2,9 @@
   position: relative;
   width: 500px;
   height: 500px;
+  margin-left: 30px;
 
 }
-
 
 .mainText {
   font-family: 'Inter-ExtraBold', sans-serif;
@@ -16,7 +16,6 @@
 
 }
 
-
 .subText {
   color: #232D62;
   margin-bottom: 60px;
@@ -26,6 +25,94 @@
   text-align: left;
 }
 
+#parallax-wrapper {
+  position: relative;
+  height: 900px;
+  width: 100%;
+}
+
+
+#parallax-wrapper div {
+  background-size: cover !important;
+  position: absolute;
+  top: -200px;
+  height: 900px;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+
+  #parallax-wrapper {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+  }
+  
+  
+  #parallax-wrapper div {
+    background-size: cover !important;
+    position: absolute;
+    height: 400px;
+    width: 100%;
+  }
+
+}
+@media (min-width: 768px) {
+
+  #parallax-wrapper {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+  }
+  
+  
+  #parallax-wrapper div {
+    background-size: cover !important;
+    position: absolute;
+    height: 500px;
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  #parallax-wrapper {
+    position: relative;
+    height: 900px;
+    width: 100%;
+  }
+  
+  
+  #parallax-wrapper div {
+    background-size: cover !important;
+    position: absolute;
+    height: 900px;
+    width: 100%;
+  }
+
+}
+
+
+@media (min-width: 1800px) {
+
+  #parallax-wrapper {
+    position: relative;
+    height: 1100px;
+    width: 100%;
+  }
+  
+  
+  #parallax-wrapper div {
+    background-size: cover !important;
+    position: absolute;
+    height: 1100px;
+    width: 100%;
+  }
+
+}
 
 .sectionHeading {
   font-family: 'Inter-ExtraBold', sans-serif;
@@ -235,7 +322,6 @@ footer {
 
 }
 
-
 .grid-container {
   max-width: 400px;
   padding-left: 1rem;
@@ -441,19 +527,4 @@ footer {
 
 .center-block {
   max-width: 200px;
-}
-
-#parallax-wrapper {
-  position: relative;
-  height: 1000px;
-  width: 100%;
-}
-
-
-#parallax-wrapper div {
-  background-size: cover !important;
-  position: absolute;
-  top: -200px;
-  height: 900px;
-  width: 100%;
 }
