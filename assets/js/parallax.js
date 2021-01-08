@@ -1,18 +1,10 @@
-// parallax effect
-(function () {
-    var parallax = $('.js-parallax');
-    if (parallax.length) {
-        parallax.each(function () {
-            var _this = $(this),
-                scale = _this.data('scale'),
-                orientation = _this.data('orientation');
-
-            new simpleParallax(_this[0], {
-                scale: scale,
-                orientation: orientation,
-                overflow: true,
-                transition: 'cubic-bezier(0,0,0,1)'
-            });
-        });
+window.addEventListener('scroll', () => {
+    let parent = document.getElementById('parallax-wrapper');
+    let children = parent.getElementsByTagName('div');
+    for (let i = 0; i < children.length; i++) {
+        children [i].style.transform = 'translateY(-' + (window.pageYOffset * i / children.length) + 'px)';
     }
-})();
+}
+, false)
+
+console.log(children.length)
