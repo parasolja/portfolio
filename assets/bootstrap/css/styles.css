@@ -77,6 +77,30 @@
 
 }
 
+@media (min-width: 1000px) {
+
+  #parallax-wrapper {
+    position: relative;
+    height: 700px;
+    width: 100%;
+    margin-top: 200px;
+  }
+  
+  
+  #parallax-wrapper div {
+    background-size: cover !important;
+    position: absolute;
+    height: 700px;
+    width: 100%;
+  }
+
+  .mainTextSection {
+   margin-top: 200px;
+
+  }
+
+}
+
 @media (min-width: 1200px) {
 
   #parallax-wrapper {
@@ -93,7 +117,14 @@
     width: 100%;
   }
 
+  .mainTextSection {
+   margin-top: 200px;
+
+  }
+
+
 }
+
 
 
 @media (min-width: 1800px) {
@@ -199,7 +230,6 @@
     position: relative;
     width: 450px;
     height: 450px;
-
 
   }
 
