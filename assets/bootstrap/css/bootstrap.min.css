@@ -2637,6 +2637,7 @@ a.btn.disabled, fieldset:disabled a.btn {
   background-color: #7c77b9;
   color: #fff;
   margin-top:30px;
+  
 }
 
 .portfolioBtn:hover {
@@ -10605,6 +10606,8 @@ header.masthead p {
 .btn-primary {
   background-color: #f05f40;
   border-color: #f05f40;
+  min-width: 150px;
+
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
