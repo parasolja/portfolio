@@ -25,6 +25,70 @@
   text-align: left;
 }
 
+@media (min-width: 0px) and (max-width: 575px) {
+
+  .mainTextSection {
+    position: relative;
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    margin: auto;
+
+  }
+
+  .mainText {
+    font-family: 'Inter-ExtraBold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    color: #232D62;
+    text-align: left;
+    margin-bottom: 20px;
+
+  }
+
+  .subText {
+    color: #232D62;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: left;
+
+  }
+}
+
+@media (min-width: 575px) and (max-width: 768px) {
+
+  .mainTextSection {
+    position: relative;
+    width: 450px;
+    height: 450px;
+
+  }
+
+  .mainText {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    color: #232D62;
+    text-align: left;
+
+
+  }
+
+  .subText {
+    color: #232D62;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: left;
+
+  }
+}
+
 #parallax-wrapper {
   position: relative;
   height: 900px;
@@ -40,21 +104,25 @@
   width: 100%;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 0px) and (max-width: 400px) {
 
   #parallax-wrapper {
     position: relative;
-    height: 300px;
+    height: 400px;
     width: 100%;
     margin-top: 100px;
+    margin-left: -50px;
+    
   }
   
   
   #parallax-wrapper div {
     background-size: cover !important;
     position: absolute;
-    height: 400px;
+    height: 460px;
     width: 100%;
+  
+    
   }
 
 }
@@ -64,7 +132,6 @@
     position: relative;
     height: 500px;
     width: 100%;
-    margin-top: 100px;
   }
   
   
@@ -84,6 +151,7 @@
     height: 650px;
     width: 100%;
     margin-top: 200px;
+
   }
   
   
@@ -124,7 +192,6 @@
   }
 }
 
-
 @media (min-width: 1560px) {
 
   #parallax-wrapper {
@@ -132,6 +199,7 @@
     height: 900px;
     width: 100%;
     margin-top: 100px;
+    margin-left: 100px;
   }
   
 
@@ -212,71 +280,6 @@
 .mainPic {
   width: 70%
 }
-
-@media (min-width: 0px) and (max-width: 575px) {
-
-  .mainTextSection {
-    position: relative;
-    width: 350px;
-    height: 400px;
-    padding: 20px;
-    margin: auto;
-
-  }
-
-  .mainText {
-    font-family: 'Inter-ExtraBold', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 55px;
-    color: #232D62;
-    text-align: left;
-    margin-bottom: 20px;
-
-  }
-
-  .subText {
-    color: #232D62;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 20px;
-    text-align: left;
-
-  }
-}
-
-@media (min-width: 575px) and (max-width: 768px) {
-
-  .mainTextSection {
-    position: relative;
-    width: 450px;
-    height: 450px;
-
-  }
-
-  .mainText {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 60px;
-    color: #232D62;
-    text-align: left;
-
-
-  }
-
-  .subText {
-    color: #232D62;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 20px;
-    text-align: left;
-
-  }
-}
-
 
 .waves {
   background-color: #FDFDFD;
