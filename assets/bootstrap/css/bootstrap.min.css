@@ -10487,6 +10487,13 @@ header.masthead p {
   }
 }
 
+@media (min-width: 768px) and (max-width: 800px)  {
+
+  header.masthead h1 {
+    font-size: 3.3rem;
+  }
+
+}
 
 
 @media (min-width:992px) and (max-width: 1200px){
