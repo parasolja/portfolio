@@ -92,7 +92,7 @@
 
 #parallax-wrapper {
   position: relative;
-  height: 900px;
+  height: auto;
   width: 100%;
 }
 
@@ -105,14 +105,13 @@
   width: 100%;
 }
 
-@media (min-width: 0px) and (max-width: 400px) {
+@media (min-width: 0px) and (max-width: 455px) {
 
   #parallax-wrapper {
     position: relative;
-    height: 400px;
     width: 100%;
-    margin-top: 100px;
-    margin-left: -50px;
+    margin-top: 150px;
+    margin-bottom: 250px;
     
   }
   
@@ -120,13 +119,34 @@
   #parallax-wrapper div {
     background-size: cover !important;
     position: absolute;
-    height: 460px;
+    height: 350px;
     width: 100%;
-  
     
   }
 
 }
+
+@media (min-width: 456px) and (max-width: 600px) {
+
+  #parallax-wrapper {
+    position: relative;
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 350px;
+    
+  }
+  
+  
+  #parallax-wrapper div {
+    background-size: cover !important;
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    
+  }
+
+}
+
 @media (min-width: 730px) {
 
   #parallax-wrapper {
@@ -150,7 +170,7 @@
 
   #parallax-wrapper {
     position: relative;
-    height: 650px;
+    height: auto;
     width: 100%;
     margin-top: 250px;
     margin-left: 80px;
@@ -234,7 +254,7 @@
     position: absolute;
     height: 900px;
     width: 80%;
-    margin-left: 300px;
+    margin-left: 200px;
   }
 
 }
