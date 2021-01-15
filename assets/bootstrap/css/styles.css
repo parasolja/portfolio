@@ -36,8 +36,8 @@
     margin-bottom: 100px;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    align-items: center;
+    text-align: left;
+    align-items: left;
 
   }
 
@@ -47,7 +47,7 @@
     font-weight: 700;
     line-height: 55px;
     color: #232D62;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
   }
 
@@ -156,7 +156,7 @@
   #parallax-wrapper div {
     background-size: cover !important;
     position: absolute;
-    height: 350px;
+    height: 320px;
     width: 100%;
     
   }
@@ -251,13 +251,39 @@
 
 }
 
-@media (min-width: 800px) and (max-width: 1230px) {
+@media (min-width: 801px) and (max-width: 999px) {
 
   #parallax-wrapper {
     position: relative;
     height: auto;
     width: 100%;
     margin-top: 250px;
+    margin-left: 80px;
+
+  }
+  
+  
+  #parallax-wrapper div {
+    background-size: cover !important;
+    position: absolute;
+    height: 650px;
+    width: 100%;
+  }
+
+  .mainTextSection {
+   margin-top: 100px;
+
+  }
+
+}
+
+@media (min-width: 1000px) and (max-width: 1230px) {
+
+  #parallax-wrapper {
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin-top: 300px;
     margin-left: 80px;
 
   }
