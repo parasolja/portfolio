@@ -218,7 +218,7 @@
   #parallax-wrapper div {
     background-size: cover !important;
     position: absolute;
-    height: 500px;
+    height: 600px;
     width: 100%;
   }
 
@@ -310,6 +310,7 @@
     height: 800px;
     width: 100%;
     margin-top: 100px;
+    margin-left: 90px ;
   }
   
 
@@ -364,7 +365,7 @@
     background-size: cover !important;
     position: absolute;
     height: 900px;
-    width: 80%;
+    width: 100%;
     margin-left: 200px;
   }
 
