@@ -2637,12 +2637,14 @@ a.btn.disabled, fieldset:disabled a.btn {
   background-color: #80389d;
   color: #fff;
   margin-top:30px;
+  transition: background-color 1s;
   
 }
 
 .portfolioBtn:hover {
-  background-color: #b8b8d1;
+  background-color: #9e63b6;
   color: #fff;
+  box-shadow: 0 11px 18px 0 rgba(179, 187, 207, 0.25);;
 }
 
 .btn-secondary {
