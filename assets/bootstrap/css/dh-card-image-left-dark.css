@@ -10,7 +10,7 @@
   margin-right: auto;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   .photo-card {
     flex-direction: row;
   }
@@ -30,7 +30,7 @@
 }
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   .photo-background {
     border-top-left-radius: 10px;
     border-top-right-radius: 0;
@@ -44,7 +44,7 @@
   padding: 2.1875em 5%;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   .photo-details {
     width: 50%;
   }
