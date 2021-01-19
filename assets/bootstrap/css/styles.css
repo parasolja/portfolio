@@ -161,6 +161,41 @@
     
   }
 
+  
+  .mainTextSection {
+    position: relative;
+    height: 400px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .mainText {
+    font-family: 'Inter-ExtraBold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    color: #232D62;
+    text-align: center;
+    margin-bottom: 20px;
+
+  }
+
+  .subText {
+    color: #232D62;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+  }
+
 }
 
 @media (min-width: 456px) and (max-width: 600px) {
