@@ -28,44 +28,8 @@
   text-align: left;
 }
 
-@media (min-width: 0px) and (max-width: 399px) {
 
-  .mainTextSection {
-    position: relative;
-    width: 200px;
-    height: 400px;
-    padding: 20px;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    align-items: left;
-
-  }
-
-  .mainText {
-    font-family: 'Inter-ExtraBold', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 55px;
-    color: #232D62;
-    margin-bottom: 30px;
-
-  }
-
-  .subText {
-    color: #232D62;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 28px;
-    text-align: left;
-
-  }
-}
-
-@media (min-width: 401px) and (max-width: 575px) {
+@media (min-width: 456px) and (max-width: 575px) {
 
   .mainTextSection {
     position: relative;
@@ -99,7 +63,7 @@
   }
 }
 
-@media (min-width: 575px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
 
   .mainTextSection {
     position: relative;
@@ -185,7 +149,7 @@
     line-height: 55px;
     color: #232D62;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 
   }
 
