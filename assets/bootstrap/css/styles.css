@@ -4,6 +4,7 @@
   height: 500px;
   margin-left: 30px;
   background-size: cover !important;
+  
 
 }
 
@@ -14,6 +15,7 @@
   color: #232D62;
   text-align: left;
   margin-bottom: 60px;
+  overflow-wrap: break-word;
 
 }
 
@@ -156,7 +158,7 @@
   #parallax-wrapper div {
     background-size: cover !important;
     position: absolute;
-    height: 320px;
+    height: 330px;
     width: 100%;
     
   }
@@ -165,12 +167,14 @@
   .mainTextSection {
     position: relative;
     height: 400px;
-    padding: 20px;
+    width: auto;
+    padding: 10px;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    word-break: break-word;
 
   }
 

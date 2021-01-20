@@ -22,7 +22,7 @@ let arrLang = {
     'about': 'Über Mich',
     'startProject':'Project starten',
     'contact': 'Kontakt',
-    'mainText':'Entwicklerin und UI Designerin',
+    'mainText':'Webentwicklerin und UI Designerin',
     'subText':'Hallo, ich bin Solya',
     'ourServices': 'UNSERE SERVICES',
     'planning': 'Plannung',
