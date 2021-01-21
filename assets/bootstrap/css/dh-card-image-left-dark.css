@@ -16,6 +16,16 @@
   }
 }
 
+.cardSubHead {
+  font-family: 'Inter-ExtraBold', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+
+}
+
 .photo-background {
   background-position: center;
   background-size: cover;
@@ -77,19 +87,6 @@
   margin: 0 0.35em 0.35em 0;
 }
 
-.photo-tags a {
-  background-color: #191e20;
-  border-radius: 50px;
-  color: rgb(0, 0, 0);
-  display: block;
-  padding: 0.3125em 1.25em;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.photo-tags a:hover, .photo-tags a:focus {
-  color: #e37544;
-}
 
 .photo-details p {
   color: rgb(5, 5, 5);
