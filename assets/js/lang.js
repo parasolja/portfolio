@@ -29,6 +29,10 @@ let arrLang = {
     'russian': 'Russian',
     'rusLevel': 'C2 Level',
     'formHeader': 'LET\'S TALK',
+    'phone': 'Phone',
+    'message': 'Message',
+    'sucMessage': 'Success! Your message was sent.',
+    'formBtn': 'Send'
 
 
   
@@ -64,7 +68,11 @@ let arrLang = {
     'ukrLevel': 'Muttersprache',
     'russian': 'Russisch',
     'rusLevel': 'C2 Niveau',
-    'formHeader': 'PROJECT STARTEN'
+    'formHeader': 'PROJECT STARTEN',
+    'phone': 'Telefonnummer',
+    'message': 'Nachricht',
+    'sucMessage': 'Hurra! Ihre Nachricht wurde verschickt.',
+    'formBtn': 'Senden'
 
   }
 };
