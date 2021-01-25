@@ -8,14 +8,33 @@ let arrLang = {
     'portfolio': 'Projects',
     'contact': 'Contact',
     'mainText': 'Web Developer and UI Designer',
-    'subText':'Hi, I\'m Solya',
-    'ourServices': 'OUR SERVICES',
+    'subText': 'Hi, I\'m Solya',
+    'workWithUsBtn':'Let\'s Talk!',
+    'service': 'WHAT I DO',
     'planning': 'Planning',
     'design': 'UI Design',
     'development': 'Development',
-    'consulting': 'Consulting',
     'optimization': 'Optimization',
-    'support': 'Support'
+    'support': 'Support',
+    'aboutMe': 'ABOUT',
+    'aboutPO': 'Hi! My name is Solya',
+    'aboutPT': 'some text',
+    'languages': 'Languages I speak',
+    'english': 'English',
+    'engLevel': 'C1 Level',
+    'german': 'German',
+    'gerLevel': 'B2 Level',
+    'ukrainian': 'Ukrainian',
+    'ukrLevel': 'Native',
+    'russian': 'Russian',
+    'rusLevel': 'C2 Level',
+    'formHeader': 'LET\'S TALK',
+
+
+  
+    
+
+
 
   },
   'de': {
@@ -26,13 +45,27 @@ let arrLang = {
     'contact': 'Kontakt',
     'mainText':'Webentwicklerin und UI Designerin',
     'subText':'Hallo, ich bin Solya',
-    'ourServices': 'UNSERE SERVICES',
+    'workWithUsBtn':'Lass uns reden!',
+    'service': 'SERVICES',
     'planning': 'Plannung',
-    'design': 'Design',
+    'design': 'UI Design',
     'development': 'Entwicklung',
-    'consulting': 'Beratung',
-    'optimization':'Optimierung',
-    'support':'Unterstützung'
+    'optimization': 'Optimierung',
+    'support': 'Unterstützung',
+    'aboutMe': 'ÜBER MICH',
+    'aboutPO': 'Hallo! Ich bin Solya',
+    'aboutPT': 'some text',
+    'languages': 'Ich spreche',
+    'english': 'Englisch',
+    'engLevel': 'C1 Niveau',
+    'german': 'Deutsch',
+    'gerLevel': 'B2 Niveau',
+    'ukrainian': 'Ukrainisch',
+    'ukrLevel': 'Muttersprache',
+    'russian': 'Russisch',
+    'rusLevel': 'C2 Niveau',
+    'formHeader': 'PROJECT STARTEN'
+
   }
 };
 

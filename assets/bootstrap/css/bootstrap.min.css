@@ -1,11 +1,4 @@
-/*
- * Start Bootstrap - Creative 4.1.1 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2020, Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
- */
-@import "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800";
-@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap";
-@import "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap";
+
 @font-face {
   font-family: 'Inter';
   src: url(/assets/fonts/Inter.ttf);
@@ -17,12 +10,7 @@
   src: url(/assets/fonts/Inter-ExtraBold.ttf);
 
 }
-/*!
- * Bootstrap v4.5.0 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
