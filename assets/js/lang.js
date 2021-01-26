@@ -32,7 +32,20 @@ let arrLang = {
     'phone': 'Phone',
     'message': 'Message',
     'sucMessage': 'Success! Your message was sent.',
-    'formBtn': 'Send'
+    'formBtn': 'Send',
+    'projects': 'PROJECTS',
+    'oledoSub': 'LED Mirrors and Screens',
+    'oledoDesr': 'Here will be description',
+    'gameSub': 'A turn-based board game',
+    'gameDesrc': 'This is the game',
+    'hedonismSub': 'Restaurant review website',
+    'hedonismDesr': 'This website',
+    'viewProject': 'View Project',
+    'getInTouch': 'GET IN TOUCH',
+    'contactMe': 'Ready to start your next project? That\'s great! You can write me a message, give me a call, write an email, or use the contact form above.',
+    'imprintText': 'Imprint & Data Protection'
+
+
 
 
   
@@ -49,7 +62,7 @@ let arrLang = {
     'contact': 'Kontakt',
     'mainText':'Webentwicklerin und UI Designerin',
     'subText':'Hallo, ich bin Solya',
-    'workWithUsBtn':'Lass uns reden!',
+    'workWithUsBtn':'Projekt starten',
     'service': 'SERVICES',
     'planning': 'Plannung',
     'design': 'UI Design',
@@ -72,7 +85,20 @@ let arrLang = {
     'phone': 'Telefonnummer',
     'message': 'Nachricht',
     'sucMessage': 'Hurra! Ihre Nachricht wurde verschickt.',
-    'formBtn': 'Senden'
+    'formBtn': 'Senden',
+    'projects': 'PROJEKTE',
+    'oledoSub': 'LED-Spiegel und Bildschirme',
+    'oledoDesr': 'Here will be description',
+    'gameSub': 'Ein rundenbasiertes Brettspiel',
+    'gameDesrc': 'This is the game',
+    'hedonismSub': 'Website für Restaurantbewertungen',
+    'hedonismDesr': 'This website', 
+    'viewProject': 'Project ansehen',
+    'getInTouch': 'NIMM KONTAKT AUF',
+    'contactMe': 'Bist du bereit dein nächstes Projekt zu starten? Toll! Sie können mir eine Nachricht schreiben, mich anrufen, eine E-Mail schreiben oder das Kontaktformular oben verwenden.',
+    'imprintText': 'Impressum & Datenschutzerklärung'
+
+
 
   }
 };
