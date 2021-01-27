@@ -399,6 +399,19 @@
   color: white;
 }
 
+.secHeadingWhite {
+  font-family: 'Inter-ExtraBold', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .activeLanguage, .languageToggler:hover {
   background-color: #b8b8d1;
   color: white;
@@ -461,8 +474,6 @@
 .hidden {
   display: none;
 }
-
-
 
 .aboutUsBackground {
   background-image: url('/assets/img/aboutUs.png');
@@ -722,3 +733,27 @@ footer {
 .center-block {
   max-width: 200px;
 }
+
+#dataProtectionCover {
+  background-image:url('/assets/img/2.jpg');
+  background-size: cover;
+  width: 100%;
+  min-height: 400px;
+}
+
+
+@media (min-width: 0px) and (max-width: 520px) {
+
+  #dataProtectionCover {
+    word-break: break-word;
+  }
+}
+
+.dataprotec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
