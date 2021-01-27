@@ -44,8 +44,10 @@ let arrLang = {
     'getInTouch': 'GET IN TOUCH',
     'contactMe': 'Ready to start your next project? That\'s great! You can write me a message, give me a call, write an email, or use the contact form above.',
     'contactMedp': 'Got some questions? Please write me a message, an email, or call, and I will gladly answer them.',
-    'imprintText': 'Imprint & Data Protection',
-    'dpHeading': 'IMPRINT & DATA PROTECTION'
+    'imprintText': 'Imprint',
+    'dataprotectionText': 'Data Protection',
+    'imprHeading': 'IMPRINT',
+    'dpHeading': 'DATA PROTECTION'
 
 
 
@@ -99,8 +101,11 @@ let arrLang = {
     'getInTouch': 'NIMM KONTAKT AUF',
     'contactMe': 'Bist du bereit dein nächstes Projekt zu starten? Toll! Du kannst mir eine Nachricht schreiben, mich anrufen, eine E-Mail schreiben oder das Kontaktformular oben verwenden.',
     'contactMedp': 'Haben sie Fragen? Bitte schreib mir eine Nachricht oder eine E-Mail.',
-    'imprintText': 'Impressum & Datenschutz',
-    'dpHeading': 'IMPRESSUM & DATENSCHUTZ'
+    'imprintText': 'Impressum',
+    'dataprotectionText': 'Datenschutz',
+    'imprHeading': 'IMPRESSUM',
+    'dpHeading': 'DATENSCHUTZ'
+
 
 
 
