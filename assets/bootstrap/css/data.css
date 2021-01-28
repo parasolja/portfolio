@@ -1,0 +1,43 @@
+#dataProtectionCover {
+    background-image:url('/assets/img/2.jpg');
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
+  }
+  
+  
+  @media (min-width: 0px) and (max-width: 520px) {
+  
+    #dataProtectionCover {
+      word-break: break-word;
+    }
+  
+    .sectionHeadingPrivacy {
+      word-break: break-word;
+    
+    }
+  }  
+
+.dataprotec {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+  }
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #b8b8d1;
+  }
