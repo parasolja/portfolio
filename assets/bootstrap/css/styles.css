@@ -383,6 +383,16 @@
 
 }
 
+.sectionHeadingPrivacy {
+  font-family: 'Inter-ExtraBold', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  color: #b8b8d1;
+  margin: 20px 0px 20px 0px;
+
+}
+
 .sectionHeadingWhite {
   font-family: 'Inter-ExtraBold', sans-serif;
   font-style: normal;
@@ -747,14 +757,22 @@ footer {
   #dataProtectionCover {
     word-break: break-word;
   }
+
+  .sectionHeadingPrivacy {
+    word-break: break-word;
+  
+  }
 }
+
+
+
 
 .dataprotec {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
 }
 
 
