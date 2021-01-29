@@ -10293,16 +10293,6 @@ a, a:hover {
   text-decoration: none;
 }
 
-.dataProtectionLink{
-  color: black;
-
-}
-
-.dataProtectionLink:hover {
-  color: #80389d;
-  text-decoration: none;
-}
-
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Open Sans, Helvetica Neue, Arial, sans-serif

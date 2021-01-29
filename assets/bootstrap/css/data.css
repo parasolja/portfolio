@@ -25,6 +25,16 @@
     justify-content: left;
     text-align: left;
   }
+
+  .dataProtectionLink{
+    color: #80389d;
+  
+  }
+  
+  .dataProtectionLink:hover {
+    color: #b8b8d1;
+    text-decoration: none;
+  }
   
   table {
     font-family: arial, sans-serif;
