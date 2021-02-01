@@ -13,6 +13,7 @@
 @media screen and (min-width: 800px) {
   .photo-card {
     flex-direction: row;
+    align-items: center;
   }
 }
 

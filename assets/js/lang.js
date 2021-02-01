@@ -40,11 +40,11 @@ let arrLang = {
     'formBtn': 'Send',
     'projects': 'PROJECTS',
     'oledoSub': 'LED Mirrors and Screens',
-    'oledoDescr': 'Here will be description',
+    'oledoDescr': 'Design, visual concept, and development of the website for OLEDO (LED mirrors and screens manufacturer).',
     'gameSub': 'A turn-based board game',
-    'gameDescr': 'This is the game',
+    'gameDescr': 'A simple turn-based board game for two players. Based and inspired by "Adventure Time" characters.',
     'hedonismSub': 'Restaurant review website',
-    'hedonismDescr': 'This website',
+    'hedonismDescr': 'Find and rate the best restaurants in the area and around the world.  Created using React.js, React Material UI, and Google API.',
     'viewProject': 'View Project',
     'getInTouch': 'GET IN TOUCH',
     'contactMe': 'Ready to start your next project? That\'s great! You can write me a message, give me a call, write an email, or use the contact form above.',
@@ -53,14 +53,6 @@ let arrLang = {
     'dataprotectionText': 'Data Protection',
     'imprHeading': 'IMPRINT',
     'dpHeading': 'DATA PROTECTION'
-
-
-
-
-  
-    
-
-
 
   },
   'de': {
@@ -102,21 +94,19 @@ let arrLang = {
     'formBtn': 'Senden',
     'projects': 'PROJEKTE',
     'oledoSub': 'LED-Spiegel und Bildschirme',
-    'oledoDesr': 'Here will be description',
+    'oledoDescr': 'Design, visuelles Konzept und Entwicklung der Website für OLEDO (Hersteller von LED-Spiegeln und Bildschirmen).',
     'gameSub': 'Ein rundenbasiertes Brettspiel',
-    'gameDesrc': 'This is the game',
+    'gameDescr': 'Ein einfaches rundenbasiertes Brettspiel für zwei Spieler. Basierend und inspiriert von "Adventure Time" Charakteren',
     'hedonismSub': 'Website für Restaurantbewertungen',
-    'hedonismDesr': 'This website', 
+    'hedonismDescr': 'Finden und bewerten Sie die besten Restaurants in der Region und auf der ganzen Welt. Erstellt mit React.js, React Material UI und Google API.', 
     'viewProject': 'Project ansehen',
     'getInTouch': 'NIMM KONTAKT AUF',
-    'contactMe': 'Bist du bereit dein nächstes Projekt zu starten? Toll! Du kannst mir eine Nachricht schreiben, mich anrufen, eine E-Mail schreiben oder das Kontaktformular oben verwenden.',
-    'contactMedp': 'Haben sie Fragen? Bitte schreib mir eine Nachricht oder eine E-Mail.',
+    'contactMe': 'Sind Sie bereit dein nächstes Projekt zu starten? Toll! Sie können mir eine Nachricht schreiben, mich anrufen, eine E-Mail schreiben oder das Kontaktformular oben verwenden.',
+    'contactMedp': 'Haben Sie Fragen? Bitte schreiben Sie mir eine Nachricht oder schicken Sie eine E-Mail.',
     'imprintText': 'Impressum',
     'dataprotectionText': 'Datenschutz',
     'imprHeading': 'IMPRESSUM',
     'dpHeading': 'DATENSCHUTZ'
-
-
 
 
   }
