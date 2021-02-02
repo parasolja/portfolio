@@ -1,5 +1,3 @@
-
-
 let arrLang = {
   'en': {
     'services': 'Services',
@@ -22,8 +20,8 @@ let arrLang = {
     'support': 'Support',
     'supportDescr': 'All my projects get full support and regular check-ups.',
     'aboutMe': 'ABOUT',
-    'aboutPO': 'Hi, I\'m Solya! I\'m a web developer and UI designer from Lviv, Ukraine, currently living and working in Bremen, Germany. I use modern web technologies to build simple, intuitive, and visually pleasing products while keeping an eye on clean code, performance, and maintainability.',
-    'aboutPT': 'I help businesses create and develop their unique presence on the web. I also gladly participate in individual projects, like to challenge myself, and always learn something new. ',
+    'aboutPO': 'Hi, I\'m Solya! I\'m a web developer and UI designer from Lviv, Ukraine, currently living and working in Bremen, Germany. I use modern web technologies to build simple, intuitive, and visually pleasing products.  I help businesses create and develop their unique presence on the web.',
+    'aboutPT': 'In my work, I keep an eye on clean code, performance, and maintainability. I enjoy working in a team and on my own. If you\'re ready to start a project with me, please drop me a line at solya.repko@gmail.com, and let\'s create something exceptional together.',
     'languages': 'Languages I speak',
     'english': 'English',
     'german': 'German',
