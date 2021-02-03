@@ -108,7 +108,7 @@ $(function() {
   let lang = localStorage.getItem('translate');
   if (lang == null) {
    // default case
-   lang = "de";
+   lang = "en";
    localStorage.setItem('translate', lang);
   }
   translatePageInto(lang);
