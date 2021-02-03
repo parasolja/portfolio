@@ -72,7 +72,7 @@ let arrLang = {
     'supportDescr': 'Alle meine Projekte erhalten volle Unterstützung und regelmäßige Überprüfungen.',
     'aboutMe': 'ÜBER MICH',
     'aboutPO': 'Hallo, ich bin Solya! Ich bin Webentwicklerin und UI-Designerin aus Bremen (ursprünglich komme ich aus Lwiw, Ukraine). Ich verwende moderne Webtechnologien, um einfache, intuitive und optisch ansprechende Produkte zu erstellen. Ich helfe Unternehmen dabei, ihre einzigartige Präsenz im Web aufzubauen und weiterzuentwickeln',
-    'aboutPT': 'Bei meiner Arbeit achte ich auf sauberen Code, Leistung und Wartbarkeit. Ich arbeite gerne im Team und alleine.Wenn Sie bereit sind, ein Projekt mit mir zu starten, schreiben Sie mir bitte eine E-Mail an solya.repko@gmail.com und lassen Sie uns gemeinsam etwas Außergewöhnliches schaffen.',
+    'aboutPT': 'Bei meiner Arbeit achte ich auf sauberen Code, Leistung und Wartbarkeit. Ich arbeite gerne im Team und alleine. Wenn Sie bereit sind, ein Projekt mit mir zu starten, schreiben Sie mir bitte eine E-Mail an solya.repko@gmail.com und lassen Sie uns gemeinsam etwas Außergewöhnliches schaffen.',
     'languages': 'Ich spreche',
     'english': 'Englisch',
     'german': 'Deutsch',
@@ -108,7 +108,7 @@ $(function() {
   let lang = localStorage.getItem('translate');
   if (lang == null) {
    // default case
-   lang = "en";
+   lang = "de";
    localStorage.setItem('translate', lang);
   }
   translatePageInto(lang);
