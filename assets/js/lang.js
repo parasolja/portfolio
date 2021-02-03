@@ -37,7 +37,7 @@ let arrLang = {
     'oledoSub': 'LED Mirrors and Screens',
     'oledoDescr': 'Design, visual concept, and development of the website for OLEDO (LED mirrors and screens manufacturer).',
     'gameSub': 'A turn-based board game',
-    'gameDescr': 'A simple turn-based board game for two players. Based and inspired by "Adventure Time" characters.',
+    'gameDescr': 'A simple turn-based board game for two players. Inspired by "Adventure Time" cartoon characters.',
     'hedonismSub': 'Restaurant review website',
     'hedonismDescr': 'Find and rate the best restaurants in the area and around the world.  Created using React.js, React Material UI, and Google API.',
     'viewProject': 'View Project',
