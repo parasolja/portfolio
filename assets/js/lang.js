@@ -78,7 +78,7 @@ let arrLang = {
     'german': 'Deutsch',
     'ukrainian': 'Ukrainisch',
     'russian': 'Russisch',
-    'formHeader': 'PROJEkT STARTEN',
+    'formHeader': 'PROJEKT STARTEN',
     'phone': 'Telefonnummer',
     'message': 'Nachricht',
     'sucMessage': 'Hurra! Ihre Nachricht wurde verschickt.',
