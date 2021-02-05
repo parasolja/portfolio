@@ -87,7 +87,7 @@ let arrLang = {
     'oledoSub': 'LED-Spiegel und Bildschirme',
     'oledoDescr': 'Design, visuelles Konzept und Entwicklung der Website für OLEDO (Hersteller von LED-Spiegeln und Bildschirmen).',
     'gameSub': 'Ein rundenbasiertes Brettspiel',
-    'gameDescr': 'Ein einfaches rundenbasiertes Brettspiel für zwei Spieler. Basierend und inspiriert von "Adventure Time" Charakteren',
+    'gameDescr': 'Ein einfaches rundenbasiertes Brettspiel für zwei Spieler. Basierend und inspiriert von "Adventure Time" Charakteren.',
     'hedonismSub': 'Website für Restaurantbewertungen',
     'hedonismDescr': 'Finden und bewerten Sie die besten Restaurants in der Region und auf der ganzen Welt. Erstellt mit React.js, React Material UI und Google API.', 
     'viewProject': 'Projekt ansehen',
