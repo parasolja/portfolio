@@ -72,7 +72,7 @@ let arrLang = {
     'supportDescr': 'Ich unterstütze Sie gerne bei allen anstehenden Wartungsarbeiten, Software-Updates, Design-Überarbeitungen usw.',
     'aboutMe': 'ÜBER MICH',
     'aboutPO': 'Hallo, ich bin Solya! Ich bin Webentwicklerin und UI-Designerin aus Bremen (ursprünglich komme ich aus Lwiw, Ukraine). Ich verwende moderne Webtechnologien, um einfache, intuitive und optisch ansprechende Produkte zu erstellen. Ich helfe Unternehmen dabei, ihre einzigartige Präsenz im Web aufzubauen und weiterzuentwickeln.',
-    'aboutPT': 'Bei meiner Arbeit achte ich auf sauberen Code, Leistung und Wartbarkeit. Ich arbeite gerne im Team und alleine. Wenn Sie wollen, ein Projekt mit mir zu starten, schreiben Sie mir bitte eine E-Mail an solya.repko@gmail.com und lassen Sie uns gemeinsam etwas Außergewöhnliches schaffen.',
+    'aboutPT': 'Bei meiner Arbeit achte ich auf sauberen Code, Leistung und Wartbarkeit. Ich arbeite gerne im Team und alleine. Schreiben Sie mir bitte eine E-Mail an solya.repko@gmail.com um mit mir Ihr nächstes Project zu besprechen und ihr individuelles Angebot zu erhalten.',
     'languages': 'Ich spreche',
     'english': 'Englisch',
     'german': 'Deutsch',
