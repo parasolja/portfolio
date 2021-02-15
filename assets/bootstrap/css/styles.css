@@ -17,8 +17,8 @@
     color: #232d62;
     margin-bottom: 30px;
     font-weight: 800;
-    font-size: 36px;
-    line-height: 36px;
+    font-size: 2rem;
+    line-height: 2rem;
     text-align: left;
 }
 @media (min-width: 456px) and (max-width: 575px) {
@@ -242,6 +242,7 @@
     }
     .mainTextSection {
         margin-top: 100px;
+        margin-left: 80px;
     }
 }
 @media (min-width: 1560px) {
