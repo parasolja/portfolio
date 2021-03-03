@@ -9474,6 +9474,7 @@ img::-moz-selection {
 header.masthead {
     padding-top: 10rem;
     background-size: cover;
+
 }
 header.masthead hr {
     margin-top: 30px;
@@ -9512,6 +9513,7 @@ header.masthead p {
     header.masthead {
         height: 100vh;
         min-height: 400px;
+        max-height: 700px;
         padding-top: 0;
         padding-bottom: 0;
     }
@@ -9519,9 +9521,13 @@ header.masthead p {
         font-size: 4rem;
     }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1500px) {
     header.masthead h1 {
         font-size: 3.7rem;
+    }
+
+    header.masthead {
+        max-height: 800px;
     }
 }
 @media (min-width: 1400px) {
