@@ -1,17 +1,14 @@
 .myServImg {
-  max-width: 120px;
-  max-height: 120px;
-  margin-bottom: 30px;
-
-
-
-
+  max-width: 200px;
+ 
 }
 
 .serviceCard {
 display: flex;
 flex-direction: column;
 align-items: center;
+padding-bottom: 40px;
 -webkit-box-orient: vertical;
 -webkit-box-direction: normal;
+
 }
