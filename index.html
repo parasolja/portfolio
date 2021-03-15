@@ -97,110 +97,6 @@
       </div>
     </div>
   </section>
-  <section id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="sectionHeading lang"name="aboutMe">ABOUT</h2>
-          <hr class="my-4">
-          <div class="span4"><img class="center-block" src="assets/img/profile.png" alt="profilePicture"/></div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 ml-auto">
-          <p class="lead lang" name="aboutPO">Hi, I'm Solya! I'm a web developer and UI designer from Lviv, Ukraine, currently living and working in Bremen, Germany. I use modern web technologies to build simple, intuitive, and visually pleasing products. I help businesses create and develop their unique presence on the web.</p>
-        </div>
-        <div class="col-lg-4 mr-auto">
-          <p class="lead lang" name="aboutPT">In my work, I keep an eye on clean code, performance, and maintainability. I enjoy working in a team and on my own. If you would like to work with me, please drop me a line at solya.repko@gmail.com, and let\'s create something exceptional together.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="sectionHeading mt-5 lang" name="languages">Languages I speak</h2>
-        </div>
-        <div class="col-md-6 col-lg-3 text-center">
-          <div class="mx-auto service-box mt-5"><img class="mb-4" alt="english" data-aos="zoom-in" data-aos-duration="200" data-aos-once="true" src="assets/img/eng.png"></img>
-            <h3 class="mb-3 lang" name="english">English</h3>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 text-center">
-          <div class="mx-auto service-box mt-5"><img class="mb-4" alt="german" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="200" data-aos-once="true" src="assets/img/de.png"></img>
-            <h3 class="mb-3 lang" name="german">German</h3>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 text-center">
-          <div class="mx-auto service-box mt-5"><img class="mb-4" alt="ukrainian" data-aos="fade" data-aos-duration="200" data-aos-delay="400" data-aos-once="true" src="assets/img/ukr.png"></img>
-            <h3 class="mb-3 lang" name="ukrainian">Ukrainian</h3>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 text-center">
-          <div class="mx-auto service-box mt-5"><img class="mb-4" alt="russian" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="600" data-aos-once="true" src="assets/img/ru.png"></img>
-            <h3 class="mb-3 lang" name="russian">Russian</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- WAVES ANIMATION -->
-  <div>
-    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-      <defs>
-        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-      </defs>
-      <g class="parallax">
-        <use xlink:href="#gentle-wave" x="48" y="3" fill="#ffc145" />
-        <use xlink:href="#gentle-wave" x="48" y="5" fill="#7D9ABA" />
-        <use xlink:href="#gentle-wave" x="48" y="7" fill="#80389d" />
-      </g>
-    </svg>
-  </div>
-  <section id="startProject" class="bg-dark text-white">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="sectionHeadingWhite lang" name='formHeader'>LET'S TALK</h2>
-          <hr class="my-4">
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="col-lg-8 mx-auto">
-        <form id="contactForm" class="needs-validation" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/#startProject">
-          <p class="hidden">
-            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-          </p>
-          <div class="control-group">
-            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Name</label><input class="form-control" type="text" name="name" id="name" required><small class="form-text text-danger help-block"></small></div>
-          </div>
-          <div class="control-group">
-            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Email</label><input class="form-control" type="email" name="email" id="email" required><small class="form-text text-danger help-block"></small></div>
-          </div>
-          <div class="control-group">
-            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label class="lang" name="phone">Phone</label><input class="form-control" type="tel" name="tel" id="phone"><small class="form-text text-danger help-block"></small></div>
-          </div>
-          <div class="control-group">
-            <div class="form-group floating-label-form-group controls mb-5 pb-2"><label class="lang" name="message">Message</label><textarea class="form-control" id="message" name="message" required rows="5"></textarea><small
-                class="form-text text-danger help-block"></small></div>
-          </div>
-          <div class="alert alert-success alert-dismissable fade show">
-            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-            <span class="lang" name='sucMessage'> Success! Your message was sent.</span>
-          </div>
-          <div class="row justify-content-center">
-            <div class="form-group">
-              <button class="btn btn-primary btn-xl lang" id="sendMessageButton" type="submit" value="Send" name='formBtn'>Send</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-    </div>
-  </section>
   <section id="portfolio">
     <div class="container">
       <div class="row">
@@ -252,6 +148,112 @@
     </div>
 </div> -->
 </section> 
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="sectionHeading lang"name="aboutMe">ABOUT</h2>
+          <hr class="my-4">
+          <div class="span4"><img class="center-block" src="assets/img/profile.png" alt="profilePicture"/></div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 ml-auto">
+          <p class="lead lang" name="aboutPO">Hi, I'm Solya! I'm a web developer and UI designer from Lviv, Ukraine, currently living and working in Bremen, Germany. I use modern web technologies to build simple, intuitive, and visually pleasing products. I help businesses create and develop their unique presence on the web.</p>
+        </div>
+        <div class="col-lg-4 mr-auto">
+          <p class="lead lang" name="aboutPT">In my work, I keep an eye on clean code, performance, and maintainability. I enjoy working in a team and on my own. If you would like to work with me, please drop me a line at solya.repko@gmail.com, and let\'s create something exceptional together.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="sectionHeading mt-5 lang" name="languages">Languages I speak</h2>
+        </div>
+        <div class="col-md-6 col-lg-3 text-center">
+          <div class="mx-auto service-box mt-5"><img class="mb-4" alt="english" data-aos="zoom-in" data-aos-duration="200" data-aos-once="true" src="assets/img/eng.png"></img>
+            <h3 class="mb-3 lang" name="english">English</h3>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 text-center">
+          <div class="mx-auto service-box mt-5"><img class="mb-4" alt="german" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="200" data-aos-once="true" src="assets/img/de.png"></img>
+            <h3 class="mb-3 lang" name="german">German</h3>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 text-center">
+          <div class="mx-auto service-box mt-5"><img class="mb-4" alt="ukrainian" data-aos="fade" data-aos-duration="200" data-aos-delay="400" data-aos-once="true" src="assets/img/ukr.png"></img>
+            <h3 class="mb-3 lang" name="ukrainian">Ukrainian</h3>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 text-center">
+          <div class="mx-auto service-box mt-5"><img class="mb-4" alt="russian" data-aos="zoom-in" data-aos-duration="200" data-aos-delay="600" data-aos-once="true" src="assets/img/ru.png"></img>
+            <h3 class="mb-3 lang" name="russian">Russian</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- WAVES ANIMATION -->
+<div>
+  <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    </defs>
+    <g class="parallax">
+      <use xlink:href="#gentle-wave" x="48" y="3" fill="#ffc145" />
+      <use xlink:href="#gentle-wave" x="48" y="5" fill="#7D9ABA" />
+      <use xlink:href="#gentle-wave" x="48" y="7" fill="#80389d" />
+    </g>
+  </svg>
+</div>
+<section id="startProject" class="bg-dark text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="sectionHeadingWhite lang" name='formHeader'>LET'S TALK</h2>
+        <hr class="my-4">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="col-lg-8 mx-auto">
+      <form id="contactForm" class="needs-validation" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/#startProject">
+        <p class="hidden">
+          <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+        </p>
+        <div class="control-group">
+          <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Name</label><input class="form-control" type="text" name="name" id="name" required><small class="form-text text-danger help-block"></small></div>
+        </div>
+        <div class="control-group">
+          <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Email</label><input class="form-control" type="email" name="email" id="email" required><small class="form-text text-danger help-block"></small></div>
+        </div>
+        <div class="control-group">
+          <div class="form-group floating-label-form-group controls mb-0 pb-2"><label class="lang" name="phone">Phone</label><input class="form-control" type="tel" name="tel" id="phone"><small class="form-text text-danger help-block"></small></div>
+        </div>
+        <div class="control-group">
+          <div class="form-group floating-label-form-group controls mb-5 pb-2"><label class="lang" name="message">Message</label><textarea class="form-control" id="message" name="message" required rows="5"></textarea><small
+              class="form-text text-danger help-block"></small></div>
+        </div>
+        <div class="alert alert-success alert-dismissable fade show">
+          <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+          <span class="lang" name='sucMessage'> Success! Your message was sent.</span>
+        </div>
+        <div class="row justify-content-center">
+          <div class="form-group">
+            <button class="btn btn-primary btn-xl lang" id="sendMessageButton" type="submit" value="Send" name='formBtn'>Send</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  </div>
+</section>
 <section id="contact">
     <div class="container">
       <div class="row">
