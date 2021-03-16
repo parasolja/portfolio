@@ -1,8 +1,8 @@
 let arrLang = {
   'en': {
-    'services': 'Services',
+    'serviceNav': 'Services',
     'about': 'About',
-    'startProject': 'Work With Me',
+    'startProject': 'Contact',
     'portfolio': 'Projects',
     'contact': 'Contact',
     'mainText': 'Web Developer and UI Designer',
@@ -53,7 +53,7 @@ let arrLang = {
   'de': {
     'services': 'Services',
     'about': 'Über Mich',
-    'startProject':'Projekt starten',
+    'startProject':'Kontakt',
     'portfolio': 'Projekte',
     'contact': 'Kontakt',
     'mainText':'Webentwicklerin und UI Designerin',
