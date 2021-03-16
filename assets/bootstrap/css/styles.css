@@ -285,8 +285,8 @@
     font-family: "Playfair Display", serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 3rem;
-    color: #b8b8d1;
+    font-size: 2.3rem;
+    color: #232d62;
     margin: 20px 0 20px 0;
 }
 
@@ -402,12 +402,16 @@
     padding: 20px;
 }
 footer {
-    background-color: #80389d;
-    margin: 0;
-    color: #fff;
+    background-color: #b8b8d1;
+    color: #232d62;
     padding: 10px;
     font-size: 0.8rem;
 }
+
+.blue {
+    color: #232d62;
+}
+
 @media (min-width: 0) and (max-width: 575px) {
     #textAboutUs {
         font-size: 1rem;
@@ -460,7 +464,6 @@ footer {
     max-width: 200px;
 }
 
-
 .contactSocial {
     margin-top: 100px;
     display: flex;
@@ -470,8 +473,7 @@ footer {
 .socialIcons {
     display: flex;
     flex-direction: row;
-    margin: 50px;
-    
+    margin: 50px;   
 }
 
 .wrapper {
@@ -479,9 +481,7 @@ footer {
     flex-direction: column;
     justify-content: first baseline;
     text-align: center;
-
 }
-
 
 @media (min-width: 991px) {
     .wrapper {
