@@ -278,22 +278,32 @@
     font-family: "Playfair Display", serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 36px;
-    color: #b8b8d1;
+    font-size: 3rem;
+    color: #232d62;
 }
 .sectionHeadingPrivacy {
     font-family: "Playfair Display", serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 24px;
+    font-size: 3rem;
     color: #b8b8d1;
     margin: 20px 0 20px 0;
 }
+
+.sectionHeadingProject {
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #232d62;
+    margin: 20px 0 20px 0;
+}
+
 .sectionHeadingWhite {
     font-family: "Playfair Display", serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 36px;
+    font-size: 3rem;
     color: white;
 }
 .sectionSubHeadWhite {
