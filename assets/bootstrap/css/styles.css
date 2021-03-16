@@ -451,3 +451,18 @@ footer {
 }
 
 
+.contactSocial {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.socialIcons {
+    display: flex;
+    flex-direction: row;
+
+    margin: 50px;
+    
+}
+
+
