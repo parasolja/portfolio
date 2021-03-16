@@ -477,11 +477,17 @@ footer {
 .wrapper {
     display: flex;
     flex-direction: column;
-    justify-content:first baseline;
-    margin-top: 3rem;
-    padding: 50px;
+    justify-content: first baseline;
+    text-align: center;
 
 }
 
+
+@media (min-width: 991px) {
+    .wrapper {
+        margin-top: 3rem;
+        padding: 50px;
+    }
+}
 
 
