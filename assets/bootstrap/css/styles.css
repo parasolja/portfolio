@@ -294,7 +294,7 @@
     font-family: "Playfair Display", serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     color: #232d62;
     margin: 20px 0 20px 0;
 }
@@ -470,9 +470,18 @@ footer {
 .socialIcons {
     display: flex;
     flex-direction: row;
-
     margin: 50px;
     
 }
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content:first baseline;
+    margin-top: 3rem;
+    padding: 50px;
+
+}
+
 
 

@@ -7417,6 +7417,7 @@ button.bg-dark:hover {
 .mt-4,
 .my-4 {
     margin-top: 2rem !important;
+    
 }
 .mr-4,
 .mx-4 {
@@ -9339,6 +9340,7 @@ hr {
     max-width: 50px;
     border-width: 3px;
     border-color: transparent;
+
 }
 hr.light {
     border-color: #fff;
